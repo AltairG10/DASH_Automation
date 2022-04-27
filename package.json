@@ -1,0 +1,25 @@
+{
+  "name": "dash_automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open",
+    "cypress:runchrome": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AltairG10/DASH_Automation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AltairG10/DASH_Automation/issues"
+  },
+  "homepage": "https://github.com/AltairG10/DASH_Automation#readme",
+  "devDependencies": {
+    "cypress": "^9.6.0"
+  }
+}
