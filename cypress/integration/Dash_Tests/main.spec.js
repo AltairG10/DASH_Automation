@@ -1,5 +1,7 @@
 /// <reference types="cypress" />
 
+// Dash Regression Suit
+
 import open from './Login.spec.js';
 import sessions from './ActiveSessions.spec.js';
 import bank from './Bank_Profiles.spec.js';
