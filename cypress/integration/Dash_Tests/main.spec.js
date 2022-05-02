@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-// Dash Regression Suit
+// Dash Regression Suite
 
 import open from './Login.spec.js';
 import sessions from './ActiveSessions.spec.js';
