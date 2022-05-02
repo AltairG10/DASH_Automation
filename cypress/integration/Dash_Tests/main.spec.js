@@ -5,6 +5,8 @@ import sessions from './ActiveSessions.spec.js';
 import bank from './Bank_Profiles.spec.js';
 import docs from './Documents.spec.js';
 import email from './Email_Viewer.spec.js';
+import summary from './EmployeeSummary.spec.js'
+import expense from './Expenses.spec.js'
 
 const URL = 'https://qa-workplace.altairglobal.net/account/signin';
 const accnt = "samuelcherinet";
@@ -82,7 +84,35 @@ describe('Email Viewer', () => {
         email.email()
 
     })
-
 })
 
 
+describe('Employee Summary', () => {
+
+     beforeEach(() => {
+         cy.visit(URL);
+         open.login(accnt);
+     })
+    
+      it('Employee Summary test', () => {
+    
+         summary.employeSummary();
+    
+      })
+
+})
+
+describe('Expenses Summary', () => {
+
+    beforeEach(() => {
+        cy.visit(URL);
+        open.login(accnt);
+    })
+   
+     it('Expenses Summary test', () => {
+   
+        expense.expenseSummary();
+   
+     })
+
+})

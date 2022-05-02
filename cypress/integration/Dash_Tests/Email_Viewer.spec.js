@@ -19,6 +19,8 @@ class emailViewer {
         cy.get(this.email_bttn).click();
         cy.get(this.email_data).should('exist');
 
+        cy.url().should('eq', 'https://qa-workplace.altairglobal.net/admin/email/search');
+
         cy.log('Email Viewer test correctly valdaated');
     }
 

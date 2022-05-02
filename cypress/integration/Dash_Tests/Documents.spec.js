@@ -20,6 +20,8 @@ class Documents{
         cy.get(this.ref_docs).should('exist');
         cy.get(this.up_docs).should('exist');
 
+        cy.url().should('eq', 'https://qa-workplace.altairglobal.net/ee/dashboard/employee/2019-32500#?tab=documents');
+
         cy.log('Documents test correctly validated')
 
     }

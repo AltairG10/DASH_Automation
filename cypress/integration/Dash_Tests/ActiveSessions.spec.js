@@ -16,6 +16,8 @@ class ActiveSession {
         cy.get(this.active_session_option).click();
         cy.get(this.current_sessions).should('exist');
 
+        cy.url().should('eq', 'https://qa-workplace.altairglobal.net/portals/sessions/dashboard');
+
         cy.log('Active Sessions test correctly Validated');
 
     }
