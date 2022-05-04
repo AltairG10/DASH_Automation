@@ -7,8 +7,12 @@ import sessions from './ActiveSessions.spec.js';
 import bank from './Bank_Profiles.spec.js';
 import docs from './Documents.spec.js';
 import email from './Email_Viewer.spec.js';
-import summary from './EmployeeSummary.spec.js'
-import expense from './Expenses.spec.js'
+import summary from './EmployeeSummary.spec.js';
+import expense from './Expenses.spec.js';
+import exception from './Exceptions.spec.js';
+import reports from './ReportAdministration.spec.js';
+import sso from './SSOMapping.spec.js';
+import trip from './Travel.spec.js';
 
 const URL = 'https://qa-workplace.altairglobal.net/account/signin';
 const accnt = "samuelcherinet";
@@ -118,3 +122,64 @@ describe('Expenses Summary', () => {
      })
 
 })
+
+describe('Exceptions Summary', () => {
+
+    beforeEach(() => {
+        cy.visit(URL);
+        open.login(accnt);
+    })
+   
+     it('Exceptions Summary test', () => {
+   
+        exception.exceptionVal();
+   
+     })
+
+})
+
+describe('Reports Summary', () => {
+
+    beforeEach(() => {
+        cy.visit(URL);
+        open.login(accnt);
+    })
+   
+     it('Report Administration test', () => {
+   
+        reports.reportVal();
+   
+     })
+
+})
+
+describe('SSO Mapping Summary', () => {
+
+    beforeEach(() => {
+        cy.visit(URL);
+        open.login(accnt);
+    })
+   
+     it('SSO Mapping test', () => {
+   
+        sso.ssoVal();
+   
+     })
+
+})
+
+describe('Travel Summary', () => {
+
+    beforeEach(() => {
+        cy.visit(URL);
+        open.login(accnt);
+    })
+   
+     it('Travel Summary test', () => {
+   
+        trip.travelVal();
+   
+     })
+
+})
+
