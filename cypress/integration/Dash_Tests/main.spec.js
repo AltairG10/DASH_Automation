@@ -15,7 +15,7 @@ import sso from './SSOMapping.spec.js';
 import trip from './Travel.spec.js';
 
 const URL = 'https://qa-workplace.altairglobal.net/account/signin';
-const accnt = "BhawnaSrivastava";
+const accnt = "abrahamrodriguez";
 
 
 
