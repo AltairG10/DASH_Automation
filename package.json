@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "cypress:open": "cypress open",
-    "cypress:runchrome": "cypress run --browser chrome --spec cypress/integration/Dash_Tests/*.spec.js"
+    "cypress:runchrome": "cypress run --browser chrome --e2e cypress/e2e/Dash_Tests/*.cy.js"
   },
   "repository": {
     "type": "git",
