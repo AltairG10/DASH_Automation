@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/AltairG10/DASH_Automation#readme",
   "devDependencies": {
-    "cypress": "^9.6.0",
+    "cypress": "^10.0.3",
     "cypress-mochawesome-reporter": "^3.0.1"
   }
 }

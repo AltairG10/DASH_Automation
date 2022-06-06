@@ -2,17 +2,17 @@
 
 // Dash Regression Suite
 
-import open from './Login.spec.js';
-import sessions from './ActiveSessions.spec.js';
-import bank from './Bank_Profiles.spec.js';
-import docs from './Documents.spec.js';
-import email from './Email_Viewer.spec.js';
-import summary from './EmployeeSummary.spec.js';
-import expense from './Expenses.spec.js';
-import exception from './Exceptions.spec.js';
-import reports from './ReportAdministration.spec.js';
-import sso from './SSOMapping.spec.js';
-import trip from './Travel.spec.js';
+import open from './Login.cy.js';
+import sessions from './ActiveSessions.cy.js';
+import bank from './Bank_Profiles.cy.js';
+import docs from './Documents.cy.js';
+import email from './Email_Viewer.cy.js';
+import summary from './EmployeeSummary.cy.js';
+import expense from './Expenses.cy.js';
+import exception from './Exceptions.cy.js';
+import reports from './ReportAdministration.cy.js';
+import sso from './SSOMapping.cy.js';
+import trip from './Travel.cy.js';
 
 const URL = 'https://qa-workplace.altairglobal.net/account/signin';
 const accnt = "abrahamrodriguez";
