@@ -1,5 +1,7 @@
 /// <reference types="cypress" />
 
+// Class for Summary Test
+
 class Summary {
 
 
